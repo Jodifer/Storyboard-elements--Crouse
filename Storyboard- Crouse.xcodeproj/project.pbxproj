@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCAE69C223E1D04000A445D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAE69C123E1D04000A445D0 /* AppDelegate.swift */; };
+		DCAE69C423E1D04000A445D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAE69C323E1D04000A445D0 /* SceneDelegate.swift */; };
+		DCAE69C623E1D04000A445D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAE69C523E1D04000A445D0 /* ViewController.swift */; };
+		DCAE69C923E1D04000A445D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCAE69C723E1D04000A445D0 /* Main.storyboard */; };
+		DCAE69CB23E1D04200A445D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCAE69CA23E1D04200A445D0 /* Assets.xcassets */; };
+		DCAE69CE23E1D04200A445D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCAE69CC23E1D04200A445D0 /* LaunchScreen.storyboard */; };
+		DCAE69D923E1D04200A445D0 /* Storyboard__CrouseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAE69D823E1D04200A445D0 /* Storyboard__CrouseTests.swift */; };
+		DCAE69E423E1D04200A445D0 /* Storyboard__CrouseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAE69E323E1D04200A445D0 /* Storyboard__CrouseUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCAE69D523E1D04200A445D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCAE69B623E1D04000A445D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCAE69BD23E1D04000A445D0;
+			remoteInfo = "Storyboard- Crouse";
+		};
+		DCAE69E023E1D04200A445D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCAE69B623E1D04000A445D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCAE69BD23E1D04000A445D0;
+			remoteInfo = "Storyboard- Crouse";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DCAE69BE23E1D04000A445D0 /* Storyboard- Crouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Storyboard- Crouse.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCAE69C123E1D04000A445D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCAE69C323E1D04000A445D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DCAE69C523E1D04000A445D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DCAE69C823E1D04000A445D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCAE69CA23E1D04200A445D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCAE69CD23E1D04200A445D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCAE69CF23E1D04200A445D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCAE69D423E1D04200A445D0 /* Storyboard- CrouseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Storyboard- CrouseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCAE69D823E1D04200A445D0 /* Storyboard__CrouseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboard__CrouseTests.swift; sourceTree = "<group>"; };
+		DCAE69DA23E1D04200A445D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCAE69DF23E1D04200A445D0 /* Storyboard- CrouseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Storyboard- CrouseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCAE69E323E1D04200A445D0 /* Storyboard__CrouseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboard__CrouseUITests.swift; sourceTree = "<group>"; };
+		DCAE69E523E1D04200A445D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCAE69BB23E1D04000A445D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCAE69D123E1D04200A445D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCAE69DC23E1D04200A445D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCAE69B523E1D04000A445D0 = {
+			isa = PBXGroup;
+			children = (
+				DCAE69C023E1D04000A445D0 /* Storyboard- Crouse */,
+				DCAE69D723E1D04200A445D0 /* Storyboard- CrouseTests */,
+				DCAE69E223E1D04200A445D0 /* Storyboard- CrouseUITests */,
+				DCAE69BF23E1D04000A445D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCAE69BF23E1D04000A445D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCAE69BE23E1D04000A445D0 /* Storyboard- Crouse.app */,
+				DCAE69D423E1D04200A445D0 /* Storyboard- CrouseTests.xctest */,
+				DCAE69DF23E1D04200A445D0 /* Storyboard- CrouseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCAE69C023E1D04000A445D0 /* Storyboard- Crouse */ = {
+			isa = PBXGroup;
+			children = (
+				DCAE69C123E1D04000A445D0 /* AppDelegate.swift */,
+				DCAE69C323E1D04000A445D0 /* SceneDelegate.swift */,
+				DCAE69C523E1D04000A445D0 /* ViewController.swift */,
+				DCAE69C723E1D04000A445D0 /* Main.storyboard */,
+				DCAE69CA23E1D04200A445D0 /* Assets.xcassets */,
+				DCAE69CC23E1D04200A445D0 /* LaunchScreen.storyboard */,
+				DCAE69CF23E1D04200A445D0 /* Info.plist */,
+			);
+			path = "Storyboard- Crouse";
+			sourceTree = "<group>";
+		};
+		DCAE69D723E1D04200A445D0 /* Storyboard- CrouseTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCAE69D823E1D04200A445D0 /* Storyboard__CrouseTests.swift */,
+				DCAE69DA23E1D04200A445D0 /* Info.plist */,
+			);
+			path = "Storyboard- CrouseTests";
+			sourceTree = "<group>";
+		};
+		DCAE69E223E1D04200A445D0 /* Storyboard- CrouseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DCAE69E323E1D04200A445D0 /* Storyboard__CrouseUITests.swift */,
+				DCAE69E523E1D04200A445D0 /* Info.plist */,
+			);
+			path = "Storyboard- CrouseUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCAE69BD23E1D04000A445D0 /* Storyboard- Crouse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCAE69E823E1D04200A445D0 /* Build configuration list for PBXNativeTarget "Storyboard- Crouse" */;
+			buildPhases = (
+				DCAE69BA23E1D04000A445D0 /* Sources */,
+				DCAE69BB23E1D04000A445D0 /* Frameworks */,
+				DCAE69BC23E1D04000A445D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Storyboard- Crouse";
+			productName = "Storyboard- Crouse";
+			productReference = DCAE69BE23E1D04000A445D0 /* Storyboard- Crouse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCAE69D323E1D04200A445D0 /* Storyboard- CrouseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCAE69EB23E1D04200A445D0 /* Build configuration list for PBXNativeTarget "Storyboard- CrouseTests" */;
+			buildPhases = (
+				DCAE69D023E1D04200A445D0 /* Sources */,
+				DCAE69D123E1D04200A445D0 /* Frameworks */,
+				DCAE69D223E1D04200A445D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCAE69D623E1D04200A445D0 /* PBXTargetDependency */,
+			);
+			name = "Storyboard- CrouseTests";
+			productName = "Storyboard- CrouseTests";
+			productReference = DCAE69D423E1D04200A445D0 /* Storyboard- CrouseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DCAE69DE23E1D04200A445D0 /* Storyboard- CrouseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCAE69EE23E1D04200A445D0 /* Build configuration list for PBXNativeTarget "Storyboard- CrouseUITests" */;
+			buildPhases = (
+				DCAE69DB23E1D04200A445D0 /* Sources */,
+				DCAE69DC23E1D04200A445D0 /* Frameworks */,
+				DCAE69DD23E1D04200A445D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCAE69E123E1D04200A445D0 /* PBXTargetDependency */,
+			);
+			name = "Storyboard- CrouseUITests";
+			productName = "Storyboard- CrouseUITests";
+			productReference = DCAE69DF23E1D04200A445D0 /* Storyboard- CrouseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCAE69B623E1D04000A445D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Jody Crouse";
+				TargetAttributes = {
+					DCAE69BD23E1D04000A445D0 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					DCAE69D323E1D04200A445D0 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = DCAE69BD23E1D04000A445D0;
+					};
+					DCAE69DE23E1D04200A445D0 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = DCAE69BD23E1D04000A445D0;
+					};
+				};
+			};
+			buildConfigurationList = DCAE69B923E1D04000A445D0 /* Build configuration list for PBXProject "Storyboard- Crouse" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCAE69B523E1D04000A445D0;
+			productRefGroup = DCAE69BF23E1D04000A445D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCAE69BD23E1D04000A445D0 /* Storyboard- Crouse */,
+				DCAE69D323E1D04200A445D0 /* Storyboard- CrouseTests */,
+				DCAE69DE23E1D04200A445D0 /* Storyboard- CrouseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCAE69BC23E1D04000A445D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCAE69CE23E1D04200A445D0 /* LaunchScreen.storyboard in Resources */,
+				DCAE69CB23E1D04200A445D0 /* Assets.xcassets in Resources */,
+				DCAE69C923E1D04000A445D0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCAE69D223E1D04200A445D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCAE69DD23E1D04200A445D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCAE69BA23E1D04000A445D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCAE69C623E1D04000A445D0 /* ViewController.swift in Sources */,
+				DCAE69C223E1D04000A445D0 /* AppDelegate.swift in Sources */,
+				DCAE69C423E1D04000A445D0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCAE69D023E1D04200A445D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCAE69D923E1D04200A445D0 /* Storyboard__CrouseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCAE69DB23E1D04200A445D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCAE69E423E1D04200A445D0 /* Storyboard__CrouseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCAE69D623E1D04200A445D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCAE69BD23E1D04000A445D0 /* Storyboard- Crouse */;
+			targetProxy = DCAE69D523E1D04200A445D0 /* PBXContainerItemProxy */;
+		};
+		DCAE69E123E1D04200A445D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCAE69BD23E1D04000A445D0 /* Storyboard- Crouse */;
+			targetProxy = DCAE69E023E1D04200A445D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DCAE69C723E1D04000A445D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCAE69C823E1D04000A445D0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCAE69CC23E1D04200A445D0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCAE69CD23E1D04200A445D0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCAE69E623E1D04200A445D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DCAE69E723E1D04200A445D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCAE69E923E1D04200A445D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A2P9668S78;
+				INFOPLIST_FILE = "Storyboard- Crouse/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "shu.com.Storyboard--Crouse";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCAE69EA23E1D04200A445D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A2P9668S78;
+				INFOPLIST_FILE = "Storyboard- Crouse/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "shu.com.Storyboard--Crouse";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DCAE69EC23E1D04200A445D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A2P9668S78;
+				INFOPLIST_FILE = "Storyboard- CrouseTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "shu.com.Storyboard--CrouseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Storyboard- Crouse.app/Storyboard- Crouse";
+			};
+			name = Debug;
+		};
+		DCAE69ED23E1D04200A445D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A2P9668S78;
+				INFOPLIST_FILE = "Storyboard- CrouseTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "shu.com.Storyboard--CrouseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Storyboard- Crouse.app/Storyboard- Crouse";
+			};
+			name = Release;
+		};
+		DCAE69EF23E1D04200A445D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A2P9668S78;
+				INFOPLIST_FILE = "Storyboard- CrouseUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "shu.com.Storyboard--CrouseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Storyboard- Crouse";
+			};
+			name = Debug;
+		};
+		DCAE69F023E1D04200A445D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A2P9668S78;
+				INFOPLIST_FILE = "Storyboard- CrouseUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "shu.com.Storyboard--CrouseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Storyboard- Crouse";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCAE69B923E1D04000A445D0 /* Build configuration list for PBXProject "Storyboard- Crouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCAE69E623E1D04200A445D0 /* Debug */,
+				DCAE69E723E1D04200A445D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCAE69E823E1D04200A445D0 /* Build configuration list for PBXNativeTarget "Storyboard- Crouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCAE69E923E1D04200A445D0 /* Debug */,
+				DCAE69EA23E1D04200A445D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCAE69EB23E1D04200A445D0 /* Build configuration list for PBXNativeTarget "Storyboard- CrouseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCAE69EC23E1D04200A445D0 /* Debug */,
+				DCAE69ED23E1D04200A445D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCAE69EE23E1D04200A445D0 /* Build configuration list for PBXNativeTarget "Storyboard- CrouseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCAE69EF23E1D04200A445D0 /* Debug */,
+				DCAE69F023E1D04200A445D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCAE69B623E1D04000A445D0 /* Project object */;
+}
