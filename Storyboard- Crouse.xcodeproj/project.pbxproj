@@ -35,7 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DCAE69BE23E1D04000A445D0 /* Storyboard- Crouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Storyboard- Crouse.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCAE69BE23E1D04000A445D0 /* Storyboard - Crouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Storyboard - Crouse.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCAE69C123E1D04000A445D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCAE69C323E1D04000A445D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DCAE69C523E1D04000A445D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -89,7 +89,7 @@
 		DCAE69BF23E1D04000A445D0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DCAE69BE23E1D04000A445D0 /* Storyboard- Crouse.app */,
+				DCAE69BE23E1D04000A445D0 /* Storyboard - Crouse.app */,
 				DCAE69D423E1D04200A445D0 /* Storyboard- CrouseTests.xctest */,
 				DCAE69DF23E1D04200A445D0 /* Storyboard- CrouseUITests.xctest */,
 			);
@@ -145,7 +145,7 @@
 			);
 			name = "Storyboard- Crouse";
 			productName = "Storyboard- Crouse";
-			productReference = DCAE69BE23E1D04000A445D0 /* Storyboard- Crouse.app */;
+			productReference = DCAE69BE23E1D04000A445D0 /* Storyboard - Crouse.app */;
 			productType = "com.apple.product-type.application";
 		};
 		DCAE69D323E1D04200A445D0 /* Storyboard- CrouseTests */ = {
@@ -442,7 +442,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "shu.com.Storyboard--Crouse";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Storyboard - Crouse";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -460,7 +460,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "shu.com.Storyboard--Crouse";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Storyboard - Crouse";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
